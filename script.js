@@ -39,7 +39,8 @@ function getSkyColor(hour, minute = 0) {
     // Sunrise (05:00-07:59)
     if (hour >= 5 && hour < 8) {
         const colors = [
-            {r: 25, g: 25, b: 112},  // Midnight Blue
+            // {r: 25, g: 25, b: 112},  // Midnight Blue
+            {r: 10, g: 10, b: 40},   // Darker Midnight Blue
             {r: 255, g: 0, b: 0},    // Red
             {r: 255, g: 165, b: 0},  // Orange
             {r: 255, g: 255, b: 0},  // Yellow
